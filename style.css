@@ -1,0 +1,193 @@
+body,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header */
+
+.my-css-logo a img {
+    width: 45px;
+    height: 45px;
+}
+.my-css-logo a span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* letter-spacing: inherit; */
+    margin-left: 15px;
+    transition: .5s;
+}
+.my-css-logo a span:hover{
+    color: #cccc;
+}
+.my-css-ulli {
+    margin-left: 146px;
+}
+.my-css-ulli li{
+    padding: 0 5px;
+}
+.my-css-ulli li a{
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .5s;
+}
+.my-css-ulli li a:hover{
+    color: #6278df !important;
+}
+
+.my-css-btn {
+    border-color: #6278df;
+    color: #6278df;
+    transition: .6s;
+    padding: 6px 24px;
+    border: 2px solid #6278df;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.my-css-btn:hover{
+    background-color: #6278df;
+    box-shadow: 1.5px 1.5px 20px 3px #6278df;
+    color: #fff;
+}
+
+/* Slider section */
+.slider-section{
+    background: url(./img/mbr-10.jpg) bottom center no-repeat;
+    padding: 150px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
+}
+.slider-text h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.slider-text h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+.my-btn-css-2 {
+    background-color: #5ba533;
+    color: #fff;
+    padding: 15px 90px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 64px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.my-btn-css-2:hover{
+    background-color: #fff;
+    border: 2px solid #6278df;
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px 20px 3px #6278df;
+
+    
+}
+.form-css {
+    width: 700px;
+}
+.my-input-css {
+    width: 340px;
+    padding: 16px 25px;
+}
+
+/* number item */
+.number-item h3 {
+    font-weight: 500;
+    font-size: 65px;
+}
+.number-item-section{
+    background-color: #fff;
+}
+.number-item{
+    font-size: 20px;
+}
+
+/* about */
+.about-section{
+    background-color: #f7f9ff;
+}
+.my-css-about-img{
+    height: 400px;
+}
+.about-text {
+    margin-top: 100px;
+}
+.about-text h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.about-text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 37px;
+}
+/* curses */
+.curses-item {
+    height: 220px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 25%);
+}
+.img-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.img-item img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    
+}
+.img-item-text p {
+    line-height: 25px;
+    font-size: 15px;
+}
+.img-item-text {
+    width: 66%;
+    padding: 0px 18px;
+}
+.hedar-text h1{
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+.hedar-text h3{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* portfolio */
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
